@@ -13,24 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb58b2f-670f-41cf-8d18-fbc6082fa351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/exception/ElementNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/service/NotesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/NoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/NotesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/NotesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/controller/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/easynotes/controller/NoteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/easynotes/repository/NotesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/easynotes/repository/NotesRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.easynotes.EasyNotesApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.easynotes.EasyNotesApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.easynotes.EasyNotesApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.easynotes.EasyNotesApplicationTests.txt" afterDir="false" />
-    </list>
+    <list default="true" id="4bb58b2f-670f-41cf-8d18-fbc6082fa351" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
