@@ -4,12 +4,10 @@ import com.example.easynotes.exception.ResourceNotFoundException;
 import com.example.easynotes.model.Note;
 import com.example.easynotes.repository.NotesRepository;
 import com.example.easynotes.repository.NotesRepository;
+import com.example.easynotes.service.NotesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
-import java.util.List;
 
 import javax.validation.Valid;
 import java.util.List;
@@ -19,6 +17,8 @@ import java.util.List;
 public class NoteController {
     @Autowired
     NotesRepository noteRepository;
+    @Autowired
+    NotesService notesService;
 
     // Get All Notes
     @GetMapping("/notes")
@@ -35,8 +35,7 @@ public class NoteController {
     // Get a Single Note
     @GetMapping("/notes/{id}")
     public Note getNoteById(@PathVariable(value = "id") Long noteId) {
-        return noteRepository.findById(noteId)
-                .orElseThrow(() -> new ResourceNotFoundException("Note", "id", noteId));
+        return notesService.getNoteById(noteId);
     }
 
     // Update a Note

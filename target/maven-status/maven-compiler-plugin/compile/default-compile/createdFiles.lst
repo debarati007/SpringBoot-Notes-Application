@@ -1,5 +1,7 @@
-com\example\easynotes\EasyNotesApplication.class
+com\example\easynotes\exception\ElementNotFoundException.class
 com\example\easynotes\exception\ResourceNotFoundException.class
 com\example\easynotes\repository\NotesRepository.class
 com\example\easynotes\model\Note.class
+com\example\easynotes\EasyNotesApplication.class
+com\example\easynotes\service\NotesService.class
 com\example\easynotes\controller\NoteController.class
